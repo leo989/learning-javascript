@@ -9,7 +9,7 @@ for (var i = 1; i < 11; i++) {
 			s +=0
 		}
 		if(j !== 10)
-			s += ", ";
+			s += ",\t";
 	}
 	console.log(s)
 	s = "";
