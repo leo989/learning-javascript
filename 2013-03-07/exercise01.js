@@ -9,7 +9,7 @@ function identity(n){
 		}else{
 			s +=0
 		}
-		if(j !== 10)
+		if(j !== n)
 			s += "\t";
 	}
 	console.log(s)
