@@ -12,11 +12,7 @@ var values = ['goofy', 'scrooge'];
 function select(data, key, values){
 	console.log(data);
 	return data.filter(function (item){
-		console.log(item);
 		return values.some(function (val){
-			console.log(values);
-			console.log(val);
-			console.log(item.key);
 			return item[key]=== val;
 		})
 	})
